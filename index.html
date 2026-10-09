@@ -6,8 +6,8 @@
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> 
   @-ms-viewport { width: device-width; } 
-  /* Force hide the scene texts and top title bar just in case */
-  .sceneName, .scenes .text { display: none !important; }
+  /* Force hide everything related to the scene sidebar list */
+  #sceneList, #sceneListToggle, .sceneName, .scenes .text { display: none !important; }
 </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
@@ -15,45 +15,6 @@
 <body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
-
-<div id="sceneList">
-  <ul class="scenes">
-    
-      <a href="javascript:void(0)" class="scene" data-id="0-1">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="1-2">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="2-4">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="3-5">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="4-6">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="5-7">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="6-8">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="7-9">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="8-10">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="9-11">
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="10-12">
-      </a>
-    
-  </ul>
-</div>
 
 <div id="titleBar" style="display: none;">
   <h1 class="sceneName"></h1>
@@ -67,11 +28,6 @@
 <a href="javascript:void(0)" id="fullscreenToggle">
   <img class="icon off" src="img/fullscreen.png">
   <img class="icon on" src="img/windowed.png">
-</a>
-
-<a href="javascript:void(0)" id="sceneListToggle">
-  <img class="icon off" src="img/expand.png">
-  <img class="icon on" src="img/collapse.png">
 </a>
 
 <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
