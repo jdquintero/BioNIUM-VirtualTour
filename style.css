@@ -828,3 +828,17 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+/* Force hide the tooltips on hover, click, focus, or active states */
+.hotspot-tooltip, 
+.link-hotspot-tooltip, 
+.info-hotspot-tooltip,
+.hotspot:hover .hotspot-tooltip,
+.hotspot:active .hotspot-tooltip,
+.hotspot:focus .hotspot-tooltip {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
