@@ -76,8 +76,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.24502894257931018,
-          "pitch": 0.35937199909632156,
+          "yaw": -0.20675295386166326,
+          "pitch": 0.4401682689740767,
           "rotation": 5.497787143782138,
           "target": "2-4"
         },
@@ -322,9 +322,9 @@ var APP_DATA = {
           "target": "7-9"
         },
         {
-          "yaw": 0.08013631822412037,
-          "pitch": 0.9390886043548363,
-          "rotation": 3.141592653589793,
+          "yaw": -3.062186570736589,
+          "pitch": 0.40651496038878143,
+          "rotation": 6.283185307179586,
           "target": "5-7"
         }
       ],
@@ -376,9 +376,9 @@ var APP_DATA = {
           "target": "8-10"
         },
         {
-          "yaw": 0.36293149520414403,
-          "pitch": 0.892438635358344,
-          "rotation": 3.141592653589793,
+          "yaw": 2.947156577435697,
+          "pitch": 0.6396632218120466,
+          "rotation": 5.497787143782138,
           "target": "6-8"
         }
       ],
@@ -468,7 +468,7 @@ var APP_DATA = {
         {
           "yaw": -1.4226459810644414,
           "pitch": 0.8058280074023756,
-          "rotation": 11.780972450961727,
+          "rotation": 18.06415775814132,
           "target": "7-9"
         }
       ],
@@ -514,9 +514,9 @@ var APP_DATA = {
           "target": "9-11"
         },
         {
-          "yaw": 0.23048443742419522,
-          "pitch": 0.7391279714777319,
-          "rotation": 5.497787143782138,
+          "yaw": 0.6063151524666708,
+          "pitch": 0.40982743522761567,
+          "rotation": 10.995574287564278,
           "target": "9-11"
         }
       ],
@@ -527,7 +527,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": true
   }
 };
